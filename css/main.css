@@ -1,0 +1,73 @@
+/*UNIVERSAL*/
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Roboto Light'), local('Roboto-Light'), url(http://fonts.gstatic.com/s/roboto/v15/0eC6fl06luXEYWpBSJvXCBJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+}
+/*HEADER*/
+header{
+	background: #FCCE09;
+	height: 600px;
+}
+button{
+	background-color: #FCB739;
+    border: none;
+    font-size: larger;
+    margin-top: 41px;
+    padding: 12px 25px;
+}
+button, .menu, .title, .subtitle{
+	color: white;
+	font-family: initial;
+	text-decoration: none;
+}
+.inicio {
+    margin-top: 41px;
+}
+.menu {
+	font-size: 18px;
+    padding-left: 22px;
+}
+.centro{
+	margin-top: 18%;
+}
+/*SECTION*/
+section{
+	background: #EAEAE9;
+}
+.box{
+	background: white;
+}
+.imagen {
+    padding: 16px 71px;
+}
+.subtitulo, .text{
+	padding: 0px 22px;
+}
+.subtitulo{
+	color: #868683;
+	font-family: initial;
+}
+.text{
+	color: #C7C8D0;
+	font-family: initial;
+    font-size: 15px;
+    line-height: normal;
+}
+.boton{
+	margin-left: 32%;
+    margin-bottom: 28px;
+}
+/*FOOTER*/
+.pie{
+	background: #323230;
+	color: white;
+	padding: 24px 69px;
+}
